@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/profile.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Your Profile</h1>
+    <div id="profile-container">
+      <p><strong>Email:</strong> <span id="user-email"></span></p>
+      <form id="update-password-form">
+        <label for="new-password">Update Password:</label>
+        <input type="password" id="new-password" placeholder="New Password" required>
+        <button type="submit">Update Password</button>
+      </form>
+      <button id="logout-button">Logout</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 E-Commerce Platform. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
